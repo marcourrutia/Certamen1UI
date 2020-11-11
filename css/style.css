@@ -18,7 +18,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 2em;
     color: blue;
     margin: 0 0 .5em 0;
@@ -51,6 +51,11 @@ footer {
 }
 
 .contenedor_desc {
+    background: #fff url(../images/gota_agua.jpg) no-repeat right bottom;
+}
+
+.contenedor_mapa {
+    margin-left: 20px;
     background: #fff url(../images/gota_agua.jpg) no-repeat right bottom;
 }
 
@@ -93,10 +98,11 @@ a.vmas {
 .desc_m {
     background: no-repeat;
     border: solid 1px black;
+    margin: 1px;
 }
 
 .desc_m.uno {
-    background-color: coral;
+    background-color: rgb(219, 190, 179);
 }
 
 .desc_c.uno {

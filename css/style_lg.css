@@ -19,6 +19,14 @@ article {
     padding: 0px 0px 35px 20px;
 }
 
+.contenedor_contacto {
+    padding: 0px 0px 10px 200px;
+}
+
+.contenedor_mapa {
+    padding: 35px 0px 35px 200px;
+}
+
 .contenedor_desc .desc_c {
     width: 50%;
     float: left;
