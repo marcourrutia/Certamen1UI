@@ -17,14 +17,16 @@ body {
 }
 
 h1 {
-    font-size: 2em;
-    font-weight: normal;
-    color: #ff5862;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 2em;
+    color: blue;
     margin: 0 0 .5em 0;
 }
 
 h3 {
     font-size: 1.2em;
+    font-weight: .5em;
     margin: 0 0 .1em 0;
 }
 
@@ -76,6 +78,27 @@ a.vmas {
     background: no-repeat;
 }
 
+.desc_m h3 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
+}
+
+.desc_m p {
+    line-height: 1.2em;
+    font-size: 0.9em;
+    margin-bottom: .5em;
+}
+
+.desc_m {
+    background: no-repeat;
+    border: solid 1px black;
+}
+
+.desc_m.uno {
+    background-color: coral;
+}
+
 .desc_c.uno {
     background-image: url(../images/desc_corta_1.jpg);
 }
@@ -90,6 +113,10 @@ a.vmas {
 
 .desc_c.cuatro {
     background-image: url(../images/desc_corta_4.jpg);
+}
+
+.desc_c.hidro {
+    background-image: url(../images/hidro.jpg);
 }
 
 header a.logo {
@@ -132,4 +159,9 @@ nav a:hover {
 
 .descripcion_up {
     padding-bottom: 15px;
+}
+
+.contacto {
+    font-size: 1.1em;
+    font-weight: bold;
 }
